@@ -148,10 +148,17 @@ header{
 .container-section{
   width: calc(100% / 3)
 }
-.container-section h2,p{
+.container-section h2{
   text-align: center;
   line-height: 1.6;
   margin: 0 50px;
+}
+.container-section h2{
+  padding: 10px;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 50px;
+  color: green
 }
 .container-section hr{
   margin: 20px 160px;
