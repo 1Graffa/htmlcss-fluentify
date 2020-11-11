@@ -69,7 +69,6 @@ header{
 }
 .header-logo{
   height: 80px;
-  background-color: orange;
 }
 .header-nav-centre{
   height: 80px;
@@ -94,6 +93,9 @@ header{
   transform: translateY(-50%);
   width: 40%;
   color: white;
+}
+.jumbo-testo h1{
+  margin-bottom: 20px;
 }
 /* main */
 main{
