@@ -59,7 +59,7 @@ ul{
 header{
   background-color: rgb(21, 19, 80);
   background-image: url(../img/background-header.png);
-  background-size: 60%;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: 110% 110%;
 }
@@ -118,4 +118,41 @@ header{
 .language h3{
   padding-bottom: 20px;
   color: grey;
+}
+/* SEZIONI CON IMMAGINI */
+.raffigurazioni-up{
+  border-bottom: 1px solid grey;
+}
+.up-side{
+  height: 210px;
+  width: 210px;
+  margin: auto;
+  margin-top: 10%;
+}
+.raffigurazioni-up .gru{
+  background-image: url(../img/profile.svg);
+  background-size: cover;
+  background-position: center;
+}
+.raffigurazioni-up .pc{
+  width: 300px;
+  background-image: url(../img/computer.svg);
+  background-size: cover;
+  background-position: center;
+}
+.raffigurazioni-up .doc{
+  background-image: url(../img/doc.svg);
+  background-size: cover;
+  background-position: center;
+}
+.container-section{
+  width: calc(100% / 3)
+}
+.container-section h2,p{
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 50px;
+}
+.container-section hr{
+  margin: 20px 160px;
 }
