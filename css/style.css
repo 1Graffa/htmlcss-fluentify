@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+ul{
+  list-style: none;
+}
+/* classi riutilizzabili */
+.container{
+  width: 80%;
+  margin: auto;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear:both;
+}
+/* button */
+.btn {
+  text-transform: uppercase;
+  border-radius: 5px;
+  color:white;
+  padding: 10px;
+}
+.btn-green{
+  background-color: green;
+}
+.btn-blu{
+  background-color: blue;
+  border: 1px solid white;
+}
+header{
+  background-color: lightblue;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+}
+.header-nav{
+  height: 80px;
+  line-height: 80px;
+}
+.header-logo{
+  height: 80px;
+  background-color: orange;
+}
+.header-nav-centre{
+  background-color: brown;
+  height: 80px;
+}
+.header-nav li{
+  display: inline-block;
+  padding: 0 10px;
+}
+.header-nav-right{
+  background-color: green;
+  height: 80px;
+}
+.jumbotron{
+  height: 470px;
+  position: relative;
+
+}
+.jumbo-testo{
+  position: absolute;
+  left:0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  color: white;
+}
+/* main */
+main{
+  /* da cancellare */
+  height: 700px;
+  background-color: grey;
+}
+.language{
+  height: 120px;
+  background-color: red;
+}
