@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 ul{
   list-style: none;
 }
@@ -121,6 +124,7 @@ header{
 }
 /* SEZIONI CON IMMAGINI */
 .raffigurazioni-up{
+  padding-bottom: 5%;
   border-bottom: 1px solid grey;
 }
 .up-side{
@@ -145,21 +149,73 @@ header{
   background-size: cover;
   background-position: center;
 }
-.container-section{
+.container-section-up{
   width: calc(100% / 3)
 }
-.container-section h2{
-  text-align: center;
-  line-height: 1.6;
-  margin: 0 50px;
-}
-.container-section h2{
+.container-section-up h2{
   padding: 10px;
   text-align: center;
   line-height: 1.6;
   margin: 0 50px;
   color: green
 }
-.container-section hr{
+.container-section-up .down-side{
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 50px;
+  color: grey;
+}
+.container-section-up hr{
   margin: 20px 160px;
+}
+.raffigurazioni-bottom{
+  padding-top: 5%;
+  height: 500px;
+  width: 1000px;
+  margin: auto;
+}
+.container-left{
+  width: 50%;
+}
+.container-right{
+  width: 50%;
+  text-align: left;
+  margin: auto;
+}
+.container-right .text{
+  padding: 5% 15%;
+}
+.container-right .text h2{
+  line-height: 1.2;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.container-right .text p{
+  line-height: 1.6;
+  color: grey;
+}
+/* Footer */
+.container-foot{
+  margin-top: 50px;
+  background-color: grey;
+}
+.testo-foot{
+  height: 200px;
+  width: 30%;
+  line-height: 200px;
+  padding-left: 10%;
+}
+.testo-foot h3{
+  font-size: 30px;
+}
+.compila-foot{
+  width: 45%;
+  height: 200px;
+  line-height: 200px;
+  padding-right: 10%;
+}
+.compila-foot .select{
+  padding: 0 10px;
+  border:0;
+  background:none;
 }
