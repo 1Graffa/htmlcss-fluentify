@@ -70,21 +70,30 @@ header{
 .header-logo{
   height: 80px;
 }
+.header-logo img{
+  margin-top: 15%;
+  margin-right: 10px;
+}
 .header-nav-centre{
-  height: 80px;
 }
 .header-nav li{
   display: inline-block;
   padding: 0 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
 }
-.header-nav-right{
-  ;
-  height: 80px;
+.header-nav-right li{
+  color: white;
+  text-align: right;
+}
+.header-nav-right li a{
+  text-decoration: none;
+  color: white;
 }
 .jumbotron{
   height: 470px;
   position: relative;
-
 }
 .jumbo-testo{
   position: absolute;
@@ -95,15 +104,18 @@ header{
   color: white;
 }
 .jumbo-testo h1{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 /* main */
-main{
-  /* da cancellare */
-  height: 700px;
-  background-color: grey;
-}
 .language{
-  height: 120px;
-  background-color: red;
+  background-color: lightgrey;
+  text-align: center;
+}
+.language h2{
+  padding: 20px;
+}
+.language h3{
+  padding-bottom: 20px;
+  color: grey;
 }
